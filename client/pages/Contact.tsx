@@ -41,29 +41,29 @@ export default function Contact() {
                 <div>
                   <p className="font-bold text-primary mb-2">Address</p>
                   <p className="text-muted-foreground">
-                    4004 Barrett Dr, Ste 202
+                  2613 Bucer Ct
                     <br />
-                    Raleigh, NC 27609
+                    Mckinney, TX 75071
                   </p>
                 </div>
 
                 <div>
                   <p className="font-bold text-primary mb-2">Phone</p>
                   <a
-                    href="tel:919-355-5317"
+                    href="tel:469-956-9665"
                     className="text-secondary hover:text-secondary/80 transition-colors font-medium"
                   >
-                    919-355-5317
+                    469-956-9665
                   </a>
                 </div>
 
                 <div>
                   <p className="font-bold text-primary mb-2">Email</p>
                   <a
-                    href="mailto:info@broadridgeproperties.com"
+                    href="mailto:accounts@broadridgeproperties.com"
                     className="text-secondary hover:text-secondary/80 transition-colors font-medium"
                   >
-                    info@broadridgeproperties.com
+                    accounts@broadridgeproperties.com
                   </a>
                 </div>
 

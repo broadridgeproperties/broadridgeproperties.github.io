@@ -26,7 +26,7 @@ export default function Layout({ children }: LayoutProps) {
   return (
     <div className="flex flex-col min-h-screen bg-background">
       {/* Header */}
-      <header className="bg-primary text-primary-foreground sticky top-0 z-50 shadow-lg">
+      <header className="bg-white text-primary sticky top-0 z-50 shadow-md border-b-4 border-secondary">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between py-4">
             {/* Logo */}
@@ -35,7 +35,7 @@ export default function Layout({ children }: LayoutProps) {
               className="flex items-center gap-3 hover:opacity-80 transition-opacity"
             >
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2F7507bdcb7d8c498ea95f4cbcb293e86e%2Fadbe2c31ed824c249999b015135301ce?format=webp&width=200"
+                src="https://cdn.builder.io/api/v1/image/assets%2F7507bdcb7d8c498ea95f4cbcb293e86e%2F3070e7a9f65e4209b195207618a25307?format=webp&width=200"
                 alt="Broadridge Properties"
                 className="h-12 w-auto"
               />
@@ -52,8 +52,8 @@ export default function Layout({ children }: LayoutProps) {
                   to={link.path}
                   className={`px-3 py-2 text-sm font-medium rounded transition-colors ${
                     isActive(link.path)
-                      ? "bg-accent text-accent-foreground"
-                      : "hover:bg-primary/80"
+                      ? "bg-secondary text-white"
+                      : "text-primary hover:text-secondary hover:bg-gray-100"
                   }`}
                 >
                   {link.label}
@@ -62,20 +62,20 @@ export default function Layout({ children }: LayoutProps) {
             </nav>
 
             {/* Contact Button (Desktop) */}
-            <div className="hidden md:flex items-center gap-4">
+            <div className="hidden md:flex items-center gap-4 text-primary">
               <a
-                href="tel:919-355-5317"
-                className="flex items-center gap-2 hover:opacity-80 transition-opacity"
+                href="tel:469-956-9665"
+                className="flex items-center gap-2 hover:text-secondary transition-colors font-semibold"
               >
                 <Phone size={18} />
-                <span className="text-sm">919-355-5317</span>
+                <span className="text-sm">469-956-9665</span>
               </a>
             </div>
 
             {/* Mobile Menu Button */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="md:hidden p-2"
+              className="md:hidden p-2 text-primary hover:text-secondary transition-colors"
             >
               {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -91,8 +91,8 @@ export default function Layout({ children }: LayoutProps) {
                   onClick={() => setMobileMenuOpen(false)}
                   className={`block px-4 py-2 rounded text-sm font-medium transition-colors ${
                     isActive(link.path)
-                      ? "bg-accent text-accent-foreground"
-                      : "hover:bg-primary/80"
+                      ? "bg-secondary text-white"
+                      : "text-primary hover:text-secondary hover:bg-gray-100"
                   }`}
                 >
                   {link.label}
@@ -116,24 +116,24 @@ export default function Layout({ children }: LayoutProps) {
               <div className="space-y-3 text-sm">
                 <div className="flex gap-3">
                   <MapPin size={18} className="flex-shrink-0 mt-0.5" />
-                  <p>4004 Barrett Dr, Ste 202, Raleigh, NC 27609</p>
+                  <p>2613 Bucer Ct Mckinney TX 75071</p>
                 </div>
                 <div className="flex gap-3">
                   <Phone size={18} className="flex-shrink-0 mt-0.5" />
                   <a
-                    href="tel:919-355-5317"
+                    href="tel:469-956-9665"
                     className="hover:opacity-80 transition-opacity"
                   >
-                    919-355-5317
+                    469-956-9665
                   </a>
                 </div>
                 <div className="flex gap-3">
                   <Mail size={18} className="flex-shrink-0 mt-0.5" />
                   <a
-                    href="mailto:info@broadridgeproperties.com"
+                    href="mailto:info@lacymanagement.com"
                     className="hover:opacity-80 transition-opacity"
                   >
-                    info@broadridgeproperties.com
+                    info@lacymanagement.com
                   </a>
                 </div>
               </div>

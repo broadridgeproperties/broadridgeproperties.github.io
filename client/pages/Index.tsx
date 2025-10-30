@@ -483,9 +483,9 @@ export default function Index() {
                   <div>
                     <p className="font-bold text-primary">Address</p>
                     <p className="text-muted-foreground">
-                      4004 Barrett Dr, Ste 202
+                      2613 Bucer Ct
                       <br />
-                      Raleigh, NC 27609
+                      Mckinney, TX 75071
                     </p>
                   </div>
                 </div>
@@ -497,10 +497,10 @@ export default function Index() {
                   <div>
                     <p className="font-bold text-primary">Phone</p>
                     <a
-                      href="tel:919-355-5317"
+                      href="tel:469-956-9665"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      919-355-5317
+                      469-956-9665
                     </a>
                   </div>
                 </div>
@@ -512,10 +512,10 @@ export default function Index() {
                   <div>
                     <p className="font-bold text-primary">Email</p>
                     <a
-                      href="mailto:info@broadridgeproperties.com"
+                      href="mailto:accounts@broadridgeproperties.com"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      info@broadridgeproperties.com
+                      accounts@broadridgeproperties.com
                     </a>
                   </div>
                 </div>

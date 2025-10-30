@@ -202,7 +202,7 @@ export default function About() {
       </section>
 
       {/* Meet the Team */}
-      <section className="py-20 bg-white">
+      {/* <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-primary mb-16 text-center">
             MEET THE TEAM
@@ -224,7 +224,7 @@ export default function About() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Call to Action */}
       <section className="py-20 bg-gradient-to-r from-secondary to-secondary/80 text-white">
