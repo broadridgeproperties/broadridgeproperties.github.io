@@ -56,7 +56,7 @@ export default function About() {
             <div className="space-y-6 text-muted-foreground">
               <p className="text-lg">
                 Welcome to Broadridge Properties, your go-to property management
-                team in the Triangle Area of North Carolina.
+                team in the Triangle Area of Texas.
               </p>
               <p>
                 Founded 7 years ago, we've rapidly grown from a startup to
