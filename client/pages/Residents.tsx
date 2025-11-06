@@ -46,7 +46,7 @@ export default function Residents() {
     {
       title: "Resident Protection",
       icon: "🛡️",
-      description: "Exclusive benefits for Lacy residents",
+      description: "Exclusive benefits for Broadridge Properties residents",
       details: [
         "Low-cost renters insurance",
         "Credit repair assistance",
@@ -279,7 +279,7 @@ export default function Residents() {
               you. Submit an emergency maintenance request anytime.
             </p>
             <a
-              href="https://app.propertymeld.com/tenant/lacy-management"
+              href="https://app.propertymeld.com/tenant/broadridgeproperties"
               target="_blank"
               rel="noopener noreferrer"
             >

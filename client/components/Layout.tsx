@@ -130,10 +130,10 @@ export default function Layout({ children }: LayoutProps) {
                 <div className="flex gap-3">
                   <Mail size={18} className="flex-shrink-0 mt-0.5" />
                   <a
-                    href="mailto:info@lacymanagement.com"
+                    href="mailto:accounts@broadridgeproperties.com"
                     className="hover:opacity-80 transition-opacity"
                   >
-                    info@lacymanagement.com
+                    accounts@broadridgeproperties.com
                   </a>
                 </div>
               </div>
