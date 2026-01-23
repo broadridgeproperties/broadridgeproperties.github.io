@@ -116,7 +116,7 @@ export default function Layout({ children }: LayoutProps) {
               <div className="space-y-3 text-sm">
                 <div className="flex gap-3">
                   <MapPin size={18} className="flex-shrink-0 mt-0.5" />
-                  <p>2613 Bucer Ct Mckinney TX 75071</p>
+                  <p>7639 US HWY 377 Collinsville TX 76233</p>
                 </div>
                 <div className="flex gap-3">
                   <Phone size={18} className="flex-shrink-0 mt-0.5" />

@@ -483,9 +483,9 @@ export default function Index() {
                   <div>
                     <p className="font-bold text-primary">Address</p>
                     <p className="text-muted-foreground">
-                      2613 Bucer Ct
+                      7639 US HWY 377 
                       <br />
-                      Mckinney, TX 75071
+                      Collinsville TX 76233
                     </p>
                   </div>
                 </div>
