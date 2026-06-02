@@ -192,14 +192,20 @@ export default function Index() {
               WHAT WE DO
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Broadridge Properties: Your Trusted Partner in Property Management
-              and Leasing
+              Broadridge Properties: Your Trusted Texas Property Management
+              Partner
             </p>
             <p className="text-base text-muted-foreground max-w-3xl mx-auto mt-4">
-              Welcome to Broadridge Properties! We are a comprehensive property
-              leasing and management firm, focusing on single-family homes and
-              townhomes. We serve Raleigh, Durham, Chapel Hill, Morrisville,
-              Apex, and surrounding areas.
+              At Broadridge Properties, we specialize in professional property
+              management, leasing, ranch management, and real estate investment
+              support across Texas. Our team is committed to maximizing property
+              value, protecting owner investments, and delivering exceptional
+              service to tenants and property owners alike.
+            </p>
+            <p className="text-base text-muted-foreground max-w-3xl mx-auto mt-4">
+              We proudly manage residential homes, ranch properties, equestrian
+              facilities, and investment properties throughout North Texas,
+              Central Texas, and South Texas.
             </p>
           </div>
 
@@ -227,6 +233,135 @@ export default function Index() {
                 </Button>
               </div>
             ))}
+          </div>
+
+          {/* Areas We Serve */}
+          <div className="mt-20">
+            <h3 className="text-3xl md:text-4xl font-bold text-center text-primary mb-12">
+              AREAS WE SERVE
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="bg-gray-50 rounded-lg p-8">
+                <h4 className="text-xl font-bold text-primary mb-4">
+                  North Texas
+                </h4>
+                <ul className="space-y-2 text-muted-foreground">
+                  {[
+                    "McKinney",
+                    "Frisco",
+                    "Prosper",
+                    "Celina",
+                    "Princeton",
+                    "Melissa",
+                    "Collinsville",
+                    "Sherman",
+                    "Denison",
+                  ].map((city) => (
+                    <li key={city} className="flex gap-2 items-center">
+                      <CheckCircle
+                        size={16}
+                        className="flex-shrink-0 text-secondary"
+                      />
+                      {city}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className="bg-gray-50 rounded-lg p-8">
+                <h4 className="text-xl font-bold text-primary mb-4">
+                  Central Texas
+                </h4>
+                <ul className="space-y-2 text-muted-foreground">
+                  {[
+                    "Liberty Hill",
+                    "Georgetown",
+                    "Leander",
+                    "Round Rock",
+                    "Austin and surrounding communities",
+                  ].map((city) => (
+                    <li key={city} className="flex gap-2 items-center">
+                      <CheckCircle
+                        size={16}
+                        className="flex-shrink-0 text-secondary"
+                      />
+                      {city}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className="bg-gray-50 rounded-lg p-8">
+                <h4 className="text-xl font-bold text-primary mb-4">
+                  South Texas
+                </h4>
+                <ul className="space-y-2 text-muted-foreground">
+                  {[
+                    "San Antonio",
+                    "Converse",
+                    "New Braunfels and surrounding areas",
+                  ].map((city) => (
+                    <li key={city} className="flex gap-2 items-center">
+                      <CheckCircle
+                        size={16}
+                        className="flex-shrink-0 text-secondary"
+                      />
+                      {city}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          {/* Our Services */}
+          <div className="mt-20">
+            <h3 className="text-3xl md:text-4xl font-bold text-center text-primary mb-12">
+              OUR SERVICES
+            </h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-4xl mx-auto">
+              {[
+                "Property Leasing & Tenant Placement",
+                "Rental Property Management",
+                "Rent Collection & Owner Reporting",
+                "Property Maintenance Coordination",
+                "Tenant Screening & Background Checks",
+                "Lease Administration & Renewals",
+                "Ranch & Equestrian Property Management",
+                "Vendor & Contractor Management",
+                "Investment Property Consulting",
+                "Property Inspections & Asset Protection",
+              ].map((service) => (
+                <div
+                  key={service}
+                  className="flex gap-3 items-start p-4 bg-gray-50 rounded-lg"
+                >
+                  <CheckCircle
+                    size={20}
+                    className="flex-shrink-0 mt-0.5 text-secondary"
+                  />
+                  <span className="text-muted-foreground">{service}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Specialized Ranch & Equestrian Management */}
+          <div className="mt-20 bg-gradient-to-r from-primary to-primary/80 text-white rounded-lg p-10 text-center">
+            <h3 className="text-3xl font-bold mb-6">
+              Specialized Ranch & Equestrian Management
+            </h3>
+            <p className="text-lg opacity-90 max-w-3xl mx-auto mb-4">
+              Broadridge Properties also provides management services for unique
+              ranch and equestrian facilities, including Vigno Ranch in
+              Collinsville, Texas. Our experience includes horse facilities,
+              barns, arenas, pasture operations, boarding facilities, and
+              large-acreage property management.
+            </p>
+            <p className="text-base opacity-80 max-w-3xl mx-auto">
+              Whether you own a single rental home, a growing investment
+              portfolio, or a ranch property, Broadridge Properties delivers
+              reliable management solutions designed to protect your investment
+              and maximize long-term returns.
+            </p>
           </div>
         </div>
       </section>

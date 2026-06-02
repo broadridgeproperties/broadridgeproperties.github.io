@@ -19,7 +19,9 @@
     "format.fix": "prettier --write .",
     "typecheck": "tsc",
     "build": "npm run build:client && npm run build:server && npm run copy:spa",
-    "copy:spa": "cp -r dist/spa/* dist/server/"
+    "copy:spa": "cp -r dist/spa/* dist/server/",
+    "predeploy": "pnpm run build",
+    "deploy": "gh-pages -d dist/server"
   },
   "dependencies": {
     "dotenv": "^17.2.1",
@@ -75,6 +77,7 @@
     "date-fns": "^4.1.0",
     "embla-carousel-react": "^8.6.0",
     "framer-motion": "^12.23.12",
+    "gh-pages": "^6.3.0",
     "globals": "^16.3.0",
     "input-otp": "^1.4.2",
     "lucide-react": "^0.539.0",

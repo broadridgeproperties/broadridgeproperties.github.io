@@ -3,6 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      // SPA redirect: restore path from query param set by 404.html
+      (function () {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, null, redirect);
+        }
+        var p = new URLSearchParams(location.search).get("p");
+        if (p) {
+          history.replaceState(
+            null,
+            null,
+            p + (location.search.replace(/[?&]p=[^&]+/, "") || "")
+          );
+        }
+      })();
+    </script>
     <title>Broadridge Properties</title>
     <link rel="icon" href="/favicon.ico" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
