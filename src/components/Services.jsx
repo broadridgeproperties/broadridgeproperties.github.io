@@ -1,4 +1,4 @@
-import { results, specialties, stats, steps } from "../data"
+import { results, services, specialties, stats, steps } from "../data"
 
 export default function Services() {
   return (
@@ -6,7 +6,25 @@ export default function Services() {
       <div className="wrap">
         <div className="section-head">
           <p className="kicker">Services</p>
-          <h2>From the first showing to the monthly statement.</h2>
+          <h2>Manage, build, and care for the property.</h2>
+          <p>
+            Residential homes, investment properties, construction projects,
+            and working ranch land. One team from the first build through
+            long-term care.
+          </p>
+        </div>
+
+        <div className="service-grid">
+          {services.map((service) => (
+            <article className="service-card" key={service.title}>
+              <h3>{service.title}</h3>
+              <p>{service.text}</p>
+            </article>
+          ))}
+        </div>
+
+        <div className="process-head">
+          <h3>How rental management works</h3>
           <p>
             Full-service management for owners who want the house rented,
             repaired, and accounted for. Tenant placement is available on its

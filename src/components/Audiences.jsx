@@ -86,13 +86,15 @@ export default function Audiences() {
             height="900"
           />
           <div>
-            <p className="kicker">Ranch and equestrian</p>
-            <h2>Acreage, barns, and boarding — not only subdivision houses.</h2>
+            <p className="kicker">Ranch management</p>
+            <h2>Working land, kept productive and well cared for.</h2>
             <p>
-              Broadridge also manages ranch and equestrian facilities,
-              including Vigno Ranch in Collinsville. The work covers horse
-              facilities, arenas, pasture operations, and large-acreage
-              property, with the same owner reporting as a rental home.
+              Ranch care covers fencing, land clearing, pasture upkeep, road
+              and water maintenance, property oversight, and agricultural use.
+              We also manage equestrian facilities, including Vigno Ranch in
+              Collinsville — horse facilities, arenas, pasture operations, and
+              boarding — and keep owners informed whether they live nearby or
+              out of state.
             </p>
           </div>
         </div>

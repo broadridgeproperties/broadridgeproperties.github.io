@@ -323,6 +323,7 @@ a {
 .markets-head,
 .markets-layout,
 .steps,
+.service-grid,
 .audiences,
 .ranch-grid,
 .about-grid,
@@ -346,6 +347,7 @@ a {
 .price-grid > *,
 .stats-grid > *,
 .form-row > *,
+.service-card,
 .market-card,
 .panel,
 .market-stage {
@@ -361,7 +363,7 @@ a {
 }
 
 .hero h1 {
-  font-size: clamp(48px, 5.6vw, 82px);
+  font-size: clamp(36px, 4.2vw, 58px);
   margin: 8px 0 18px;
 }
 
@@ -537,6 +539,42 @@ a {
 .market-card p:last-of-type {
   color: var(--muted);
   margin-bottom: 18px;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.service-card {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  padding: 24px 22px 26px;
+}
+
+.service-card h3 {
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+.service-card p {
+  color: var(--muted);
+}
+
+.process-head {
+  max-width: 40rem;
+  margin: 56px 0 8px;
+}
+
+.process-head h3 {
+  font-size: clamp(28px, 3vw, 40px);
+  margin-bottom: 8px;
+}
+
+.process-head p {
+  color: var(--muted);
 }
 
 .steps {
@@ -1021,6 +1059,7 @@ textarea {
   .footer-grid,
   .stats-grid,
   .steps,
+  .service-grid,
   .price-grid {
     grid-template-columns: 1fr;
   }
@@ -1045,7 +1084,7 @@ textarea {
   }
 
   .hero h1 {
-    font-size: 46px;
+    font-size: 40px;
   }
 }
 
@@ -1066,7 +1105,7 @@ textarea {
   }
 
   .hero h1 {
-    font-size: 40px;
+    font-size: 34px;
   }
 
   .city-btn strong,

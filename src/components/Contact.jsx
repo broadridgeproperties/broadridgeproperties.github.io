@@ -48,16 +48,15 @@ export default function Contact({ cityName, askToken }) {
       <div className="wrap contact-grid">
         <div>
           <p className="kicker">Contact</p>
-          <h2>Tell us about the property.</h2>
+          <h2>Ready to protect, build, or grow your Texas property?</h2>
           <p className="lede">
-            Owners can ask for a rent analysis. Residents can ask about a
-            house, a payment, or a repair. The form opens your email app
-            addressed to the office.
+            Contact Broadridge Properties today for a free consultation. The
+            form opens your email app addressed to the office.
           </p>
 
           <dl className="contact-facts">
             <div>
-              <dt>Office</dt>
+              <dt>Mailing</dt>
               <dd>
                 {contact.address[0]}
                 <br />
@@ -140,9 +139,11 @@ export default function Contact({ cityName, askToken }) {
                 I am a
                 <select name="role" value={form.role} onChange={update}>
                   <option>Property owner</option>
+                  <option>Investor</option>
+                  <option>Construction client</option>
+                  <option>Ranch owner</option>
                   <option>Resident</option>
                   <option>Future resident</option>
-                  <option>Investor</option>
                 </select>
               </label>
               <label>

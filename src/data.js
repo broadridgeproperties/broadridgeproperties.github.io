@@ -3,7 +3,7 @@ export const contact = {
   phoneHref: "tel:469-956-9665",
   email: "accounts@broadridgeproperties.com",
   emailHref: "mailto:accounts@broadridgeproperties.com",
-  address: ["7639 US HWY 377", "Collinsville, TX 76233"],
+  address: ["2613 Bucer Ct", "McKinney, TX 75071"],
   hours: [
     "Monday – Friday, 9:00 AM – 5:00 PM",
     "Saturday, 10:00 AM – 3:00 PM",
@@ -120,6 +120,28 @@ export const steps = [
     title: "Report",
     text: "Rent collection, owner disbursement, financials, and a portal you can open any time.",
   },
+]
+
+export const services = [
+  {
+    title: "Property Management",
+    text: "We handle tenant screening, leasing, rent collection, maintenance coordination, and financial reporting for residential and investment properties. Owners get steady income and fewer headaches.",
+  },
+  {
+    title: "Construction & General Contracting",
+    text: "We manage construction projects across Texas from planning to final walkthrough. That includes new builds, renovations, remodels, and property improvements. We coordinate trusted subcontractors, manage budgets and schedules, and hold every project to a high standard of quality.",
+  },
+  {
+    title: "Ranch Management",
+    text: "We maintain and manage Texas ranch land so it stays productive and well cared for. Our work covers fencing, land clearing, pasture upkeep, road and water maintenance, and property oversight. We can also manage your agricultural use and keep you informed whether you live nearby or out of state.",
+  },
+]
+
+export const reasons = [
+  "One company for management, construction, and ranch care",
+  "Deep knowledge of Texas communities and land",
+  "Clear communication and transparent reporting",
+  "Quality work on time and on budget",
 ]
 
 export const specialties = [

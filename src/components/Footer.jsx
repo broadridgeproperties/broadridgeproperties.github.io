@@ -13,12 +13,12 @@ export default function Footer() {
             </span>
           </a>
           <p>
-            Property management for homes and ranch land in North, Central, and
-            South Texas.
+            Property management, construction, and ranch care for homes and
+            land across Texas.
           </p>
         </div>
         <div>
-          <h2>Visit</h2>
+          <h2>Mailing address</h2>
           <p>
             {contact.address[0]}
             <br />
@@ -58,7 +58,7 @@ export default function Footer() {
       </div>
       <div className="wrap footer-base">
         <p>© {new Date().getFullYear()} Broadridge Properties</p>
-        <p>Collinsville, Texas</p>
+        <p>McKinney, Texas</p>
       </div>
     </footer>
   )

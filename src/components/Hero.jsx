@@ -5,22 +5,15 @@ export default function Hero({ onPickCity }) {
     <section className="hero-section" id="top">
       <div className="wrap hero">
         <div className="hero-copy">
-          <p className="kicker">Texas property management</p>
-          <h1>
-            Homes managed
-            <br />
-            across nine
-            <br />
-            Texas cities.
-          </h1>
+          <p className="kicker">Across Texas</p>
+          <h1>Property Management, Construction & Ranch Services Across Texas</h1>
           <p className="lede">
-            Broadridge Properties leases, maintains, and reports on residential
-            homes, investment properties, and ranch land — from McKinney and
-            Collinsville down through Austin and San Antonio.
+            One trusted partner to manage, build, and care for your Texas
+            property, from residential homes to working ranch land.
           </p>
           <div className="hero-actions">
             <a className="btn btn-green" href="#contact">
-              Get a rent analysis
+              Free consultation
             </a>
             <a
               className="btn btn-ghost"
